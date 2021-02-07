@@ -3,12 +3,20 @@
 
 ## Install
 
-Would not install via sodo aptinstall sysbench
+Would not install via sudo 
 
+```
+sudo apt install sysbench
+```
+```
 sysbench : Depends: libmariadbclient18 (>= 5.5.36) but it is not installable
+```
 
+Downloaded from debian [libmariadbclient18](https://packages.debian.org/stretch/arm64/libmariadbclient18)
+
+```
 sudo apt install /home/pi/Downloads/libmariadbclient18_10.1.48-0+deb9u1_arm64.deb
-
+```
 
 
 ## Setup
